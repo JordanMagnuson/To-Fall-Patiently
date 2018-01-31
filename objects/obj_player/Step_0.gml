@@ -1,3 +1,6 @@
+// See "Platform Basics" tutorial: http://gamemakertutorials.com/?p=383
+
+
 //Get the player's input
 key_right = keyboard_check(vk_right);
 key_left = -keyboard_check(vk_left);
