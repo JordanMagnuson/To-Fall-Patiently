@@ -13,6 +13,21 @@ if (place_meeting(x,y+1,obj_wall))
 {
     vsp = key_jump * -jump_speed
 }
+
+// Word Collision
+//if (place_meeting(x+hsp,y,obj_word)) {
+//	obj_word.hsp = hsp;
+//}
+
+//Horizontal Collision
+if (place_meeting(x+hsp,y,obj_word))
+{
+    while(!place_meeting(x+sign(hsp),y,obj_word))
+    {
+        x += sign(hsp);
+    }
+}
+
  
 //Horizontal Collision
 if (place_meeting(x+hsp,y,obj_wall))

@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "5dffed7c-92e5-434e-92ed-44b2a1c796fa",
+            "Value": {
+                "id": "d044c2af-9b1f-4dbd-8a05-efa01594669e",
+                "resourcePath": "views\\5dffed7c-92e5-434e-92ed-44b2a1c796fa.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5e0e9bfa-d9d9-4e51-8a51-99bf8eda8bee",
             "Value": {
                 "id": "48be2f7f-f276-44d3-9e09-a9f1d27ef3c7",
@@ -140,6 +148,14 @@
                 "id": "9754aec4-5809-46e7-a7c2-806e5ec523da",
                 "resourcePath": "views\\66213c2a-27db-4856-a273-d46b52f4ace8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6ae9dc0a-a419-441e-ad82-fb478125cb89",
+            "Value": {
+                "id": "decb071b-67cd-45c0-99a1-714601bf623c",
+                "resourcePath": "fonts\\fnt_casual_encounter\\fnt_casual_encounter.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -172,6 +188,14 @@
                 "id": "cd4a1e60-ba54-46ac-8ef8-90d103fddcfe",
                 "resourcePath": "views\\7c045cb0-6f27-45bf-9991-fe706e07199b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "88e37010-0190-4901-a511-095eeba7c380",
+            "Value": {
+                "id": "1fcbe01f-0a99-4027-b7c9-8e413bbb3147",
+                "resourcePath": "sprites\\spr_patiently\\spr_patiently.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -215,10 +239,26 @@
             }
         },
         {
+            "Key": "c183b604-9803-4eb5-b41e-2736d0e675ae",
+            "Value": {
+                "id": "dfdb9cf2-aa5d-4738-835d-5567deeee9b6",
+                "resourcePath": "views\\c183b604-9803-4eb5-b41e-2736d0e675ae.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c3df13a9-ad14-41be-b618-c0aec78e2c58",
             "Value": {
                 "id": "85ba24dd-9f28-40fc-b66e-d00cb61e85a7",
                 "resourcePath": "objects\\obj_shader_mosaic\\obj_shader_mosaic.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cb7a63f8-52e1-403d-a569-31cc2b0fa3db",
+            "Value": {
+                "id": "9f2cae34-b1ba-4315-ad43-cd29cbb5874b",
+                "resourcePath": "objects\\obj_word\\obj_word.yy",
                 "resourceType": "GMObject"
             }
         },
