@@ -4,4 +4,5 @@ max_speed = 4;
 hsp = 0;
 vsp = 0;
 jump_speed = 5;
-move_speed = 4;
+move_speed = 1;
+falling = false;

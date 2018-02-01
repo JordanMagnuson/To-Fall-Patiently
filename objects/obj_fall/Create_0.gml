@@ -10,3 +10,5 @@ image_blend = c_black;
 
 // Set origin to bottom left (instead of default top left).
 sprite_set_offset(sprite_index,0,sprite_height);
+
+image_angle = 45;
