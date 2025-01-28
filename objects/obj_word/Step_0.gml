@@ -40,15 +40,15 @@ if (vsp > max_speed) vsp = max_speed;
 
  
 //Vertical Collision
-if (collision_point(x,y+vsp,obj_wall,true,false))
+if (collision_point(x,y+vsp,obj_canyon_top,true,false))
 {
-  while(!collision_point(x,y+sign(vsp),obj_wall,false,false))
+  while(!collision_point(x,y+sign(vsp),obj_canyon_top,false,false))
   {
     y += sign(vsp);
   }
   vsp = 0;
 }
-else if (y >= obj_wall.y) {
+else if (y >= global.canyon_top_y) {
 	image_angle += 1;
 	falling = true;
 }
