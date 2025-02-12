@@ -1,7 +1,12 @@
 {
-    "id": "17be3cfa-e6dc-4d2e-aeca-3afb36be23d6",
-    "modelName": "GMShader",
-    "mvc": "1.0",
-    "name": "shd_mosaic",
-    "type": 1
+  "$GMShader":"",
+  "%Name":"shd_mosaic",
+  "name":"shd_mosaic",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
 }
