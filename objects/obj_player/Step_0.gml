@@ -3,13 +3,13 @@
 
 //Get the player's input
 if (!falling) {
-	key_right = keyboard_check(vk_right);
-	key_left = -keyboard_check(vk_left);
+	key_right = keyboard_check(vk_right) || obj_controller.right_screen_held;
+	key_left = keyboard_check(vk_left) || obj_controller.left_screen_held;
 	key_jump = keyboard_check_pressed(vk_space);
 
  
 	//React to inputs
-	move = key_left + key_right;
+	move = key_right - key_left;
 	hsp = move * move_speed;
 } 
 else {

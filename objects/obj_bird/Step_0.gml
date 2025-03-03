@@ -6,7 +6,7 @@ if (y < 15000) {
 }
 
 if (!offscreen) { // y > 14000
-	if (keyboard_check(vk_left)) {
+	if (keyboard_check(vk_left) || obj_controller.left_screen_held) {
 		x -= 2;
 		if (image_angle > -90)
 			image_angle -= 1;
@@ -15,7 +15,7 @@ if (!offscreen) { // y > 14000
 			started_flying = true;
 		}
 	}
-	else if (keyboard_check(vk_right)) {
+	else if (keyboard_check(vk_right) || obj_controller.right_screen_held) {
 		x += 2;
 		if (image_angle < 90) 
 			image_angle += 1;
