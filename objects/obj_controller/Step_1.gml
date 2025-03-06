@@ -8,6 +8,7 @@ if(os_browser != browser_not_a_browser){
 		height = _new_height;
 		
 		window_set_size(width,height);
+		display_set_gui_size(width,height);
 	}
 }
 
